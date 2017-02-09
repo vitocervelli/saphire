@@ -1,0 +1,19 @@
+/*
+Theme Name:saphire
+Theme URI: http://www.sapphircanadatrade.com/
+Author: Vito Cervelli
+Author URI:http://www.sapphircanadatrade.com/ 
+Description: Tema personalizado para sapphirecanadatrade
+Version: 1.0
+Text Domain: saphire
+
+
+*/
+.main_menu li{
+		display: inline;
+	}
+
+
+h1{
+	font-size: 50px;
+}
