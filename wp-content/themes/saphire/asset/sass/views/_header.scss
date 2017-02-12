@@ -1,0 +1,26 @@
+.row{
+	margin: 0;
+}
+.sct_header{
+	background-color: #2ECCFA;	
+	.sct_logo_header{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	#sct_main_menu{
+    padding-top: 20px;
+    text-align: right;
+		li{
+			padding-left: 80px;
+			display: inline;
+			a{
+				color: #FFFFFF;
+				font-size: 20px;
+			}
+			a:hover{
+			    color: #08088A;
+			    text-decoration: none;
+			}
+		}
+	} 
+}

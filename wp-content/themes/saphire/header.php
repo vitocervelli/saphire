@@ -18,16 +18,21 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<header>
-		
-<div class="row main_menu">
-	<?php
-	/// manera de mostrar el menu en wordpress
-	wp_nav_menu( array( 'theme_location' => 'menu_primary', 'menu_id' => 'menu_primary' ) );
-	?>
-</div>
+	<header class= "row sct_header">
+	<div class="container">
+		<div class="sct_logo_header col-xs-2">
+			<img class= "col-xs-12" src="/wp-content/uploads/Sapphire_Logo_Peq.png" alt="logo sapphire">
+		</div>
+		<div class="col-xs-offset-2 col-xs-8">
+			<?php
+			/// manera de mostrar el menu en wordpress
+			wp_nav_menu( array( 'theme_location' => 'menu_primary', 'menu_id' => 'sct_main_menu' ) );
+			?>
+		</div>	
+	</div>
+	
 	</header>
-	<div class= "container">
+	<div class= "row">
 
 
 

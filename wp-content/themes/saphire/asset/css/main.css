@@ -1,7 +1,110 @@
-/* Welcome to Compass. Use this file to define print styles.
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
-/* line 4, ../sass/views/_prueba.scss */
-h1 {
-  font-size: 12 px;
+/* line 1, ../sass/views/_header.scss */
+.row {
+  margin: 0;
+}
+
+/* line 4, ../sass/views/_header.scss */
+.sct_header {
+  background-color: #2ECCFA;
+}
+/* line 6, ../sass/views/_header.scss */
+.sct_header .sct_logo_header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 10, ../sass/views/_header.scss */
+.sct_header #sct_main_menu {
+  padding-top: 20px;
+  text-align: right;
+}
+/* line 13, ../sass/views/_header.scss */
+.sct_header #sct_main_menu li {
+  padding-left: 80px;
+  display: inline;
+}
+/* line 16, ../sass/views/_header.scss */
+.sct_header #sct_main_menu li a {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+/* line 20, ../sass/views/_header.scss */
+.sct_header #sct_main_menu li a:hover {
+  color: #08088A;
+  text-decoration: none;
+}
+
+/* line 1, ../sass/views/_home.scss */
+.sct_definition_company {
+  padding-top: 100px;
+}
+@-webkit-keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 15, ../sass/views/_home.scss */
+.sct_definition_company h1 {
+  -webkit-animation-name: show;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  font-size: 36px;
+  color: #08088A;
+}
+/* line 22, ../sass/views/_home.scss */
+.sct_definition_company h4 {
+  -webkit-animation-name: show;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  font-size: 36px;
+  color: #08088A;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+/* line 33, ../sass/views/_home.scss */
+.sct_company {
+  background-image: url("/wp-content/uploads/boatcanadatrade.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+/* line 1, ../sass/views/_about_us.scss */
+.sct_label_about {
+  text-align: center;
+  background-color: #08298A;
+  color: #FFFFFF;
+}
+
+/* line 6, ../sass/views/_about_us.scss */
+.sct_about_company {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* line 9, ../sass/views/_about_us.scss */
+.sct_about_company p {
+  font-size: 20px;
+  color: #000000;
+}
+
+/* line 14, ../sass/views/_about_us.scss */
+.sct_about_mision {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* line 18, ../sass/views/_about_us.scss */
+.sct_about_mision p {
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* line 1, ../sass/views/_footer.scss */
+footer {
+  background-color: #585858;
+  color: #FFFFFF;
 }

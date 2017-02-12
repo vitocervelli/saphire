@@ -8,22 +8,15 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header><!-- .entry-header -->
-
-	
-	<div class="entry-content">
-		<?php
-		the_content();
-
-		?>
-	</div><!-- .entry-content -->
-
-	<?php
-	echo "hola";
-	
-	?>
-
-</article><!-- #post-## -->
+<div class="sct_company row">
+	<div class="container">
+		<div class="sct_definition_company col-xs-5">
+			<h1>
+				Sapphire Canada Trade
+			</h1>
+			<h4>
+				Es una empresa comercial internacional ubicada en Toronto, Ontario, Canadá; Que busca facilitar el comercio entre los mercados locales e internacionales.
+			</h4>
+		</div>
+	</div>
+</div>

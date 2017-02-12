@@ -1,0 +1,39 @@
+.sct_definition_company{
+	@-webkit-keyframes show {
+   from {
+      opacity: 0;
+   }
+   
+   to {
+      opacity:  1;
+   }
+}   
+
+
+	padding-top: 100px;
+	
+	h1{
+		-webkit-animation-name: show;
+   		-webkit-animation-duration: 3s;
+   		-webkit-animation-iteration-count: 1;
+		font-size: 36px;
+		color:#08088A;
+	}
+	h4{
+		-webkit-animation-name: show;
+   		-webkit-animation-duration: 3s;
+   		-webkit-animation-iteration-count: 1;
+		font-size: 36px;
+		color:#08088A;
+		color:#FFFFFF;
+		font-size: 24px;
+	}
+	
+}
+.sct_company{
+	background-image: url('/wp-content/uploads/boatcanadatrade.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 500px;
+}
